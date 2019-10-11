@@ -1,0 +1,17 @@
+{
+	"name": "GospeLib",
+	"version": 2,
+	"public": false,
+	"builds": [
+		{
+			"src": "www/package.json",
+			"use": "@now/static-build"
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "/www/$1"
+		}
+	]
+}

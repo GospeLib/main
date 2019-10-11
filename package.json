@@ -1,0 +1,10 @@
+{
+  "name": "@GospeLib/main",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "GospeLib Inc. <dev@gospelib.com>",
+  "workspaces": [
+    "www"
+  ]
+}
