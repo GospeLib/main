@@ -1,0 +1,9 @@
+{
+	"name": "@gospelib/scripture-ref",
+	"version": "0.0.0",
+	"description": "",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc"
+	}
+}

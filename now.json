@@ -4,14 +4,14 @@
 	"public": false,
 	"builds": [
 		{
-			"src": "www/package.json",
+			"src": "sites/www/package.json",
 			"use": "@now/static-build"
 		}
 	],
 	"routes": [
 		{
 			"src": "/(.*)",
-			"dest": "/www/$1"
+			"dest": "/sites/www/$1"
 		}
 	]
 }
